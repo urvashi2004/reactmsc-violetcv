@@ -1,0 +1,42 @@
+.signin a {
+    text-decoration: none;
+    cursor: default;
+} 
+
+.container-sign-in {
+    background: #fff;
+    box-shadow: 0 0 20px 0 #0003, 0 5px 5px 0 #0000003d;
+    margin: 0 auto 100px;
+    max-width: 360px;
+    padding: 45px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.container-sign-in button {
+    border-radius: 15px;
+    background-color: #522d47;
+    padding: 10px 20px;
+    color: #f1c7e5;
+    text-decoration: none;
+    max-width: 360px;
+    width: 40vw;
+    margin: 2%;
+}
+
+.container-sign-in button:hover {
+    cursor: pointer;
+}
+
+.container-sign-in input {
+    border: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+}

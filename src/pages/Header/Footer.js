@@ -19,6 +19,7 @@ const Footer = () => {
             <li><a href="/team" className="hover:text-white text-[#d4d4d4]">Team</a></li>
             <li><a href="/faq" className="hover:text-white text-[#d4d4d4]">FAQ</a></li>
             <li><a href="/contact" className="hover:text-white text-[#d4d4d4]">Contact Us</a></li>
+            <li><a href="/signin" className="hover:text-white text-[#d4d4d4]">Sign In</a></li>
           </ul>
         </div>
         <div className="help-sec my-4 w-full md:w-auto text-center md:text-left">

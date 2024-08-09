@@ -19,6 +19,8 @@ import BlogKhushiSharma from "./pages/BlogPages/blogslist/BlogKhushiSharma";
 import BlogAasthaSinghal from "./pages/BlogPages/blogslist/BlogAasthaSinghal";
 import Upcoming from "./pages/Home/Upcoming";
 
+import SignIn from "./pages/SignIn/Signin";
+
 import Bootcamp24 from "./pages/Bootcamp24/Bootcamp";
 import AIML from "./pages/Bootcamp24/details/pages/AIML";
 import AppD from "./pages/Bootcamp24/details/pages/AppD";
@@ -48,6 +50,9 @@ function App() {
             <Route path="/events" element={<EventsPg />} />
             <Route path="/blog" element={<Blogpg />} />
             <Route path="/googlegenerationscholarship" element={<Blog />} />
+
+            <Route path="/signin" element={<SignIn/>} />
+
             <Route path="/bootcamp" element={<Bootcamp />} />
             <Route path="/bootcamp24" element={<Bootcamp24/>}/>
             <Route path="/bootcamp24/aiml" element={<AIML/>}/>
